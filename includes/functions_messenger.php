@@ -1856,6 +1856,11 @@ function mail_encode($str, $eol = "\r\n")
 	// Check if string contains ASCII only characters
 	$is_ascii = strlen($str) === utf8_strlen($str);
 
+	/* Temporary hack to stop notification emails to users with '@' in username
+	 * from failing. Hope this will get a good fix in v3.3.6. -Marc
+	 */
+	$is_ascii = false;
+
 	// Define start delimimter, end delimiter and spacer
 	// Use the Quoted-Printable encoding for ASCII strings to avoid unnecessary encoding in Base64
 	$start = $is_ascii ? "=?US-ASCII?Q?" : "=?UTF-8?B?";
