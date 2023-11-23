@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 <br />
  If you have any difficulty with this registration process, please email the details to <a href="mailto:tech-team@apoe4.info">tech-team@apoe4.info</a>.<br />
 <br />
-Please refer to our <a href="/wp/terms-of-use">Terms of Use</a> for information about your legal relationship with ApoE4.Info, Inc. and this Site. These Guidelines provide additional detail about the social environment that we strive to maintain in our discussions on the <a href="/forums/">ApoE4.Info Forums</a>.<br />
+Please refer to our <a href="https://www.apoe4.info/terms-of-use">Terms of Use</a> for information about your legal relationship with ApoE4.Info, Inc. and this Site. These Guidelines provide additional detail about the social environment that we strive to maintain in our discussions on the <a href="/forums/">ApoE4.Info Forums</a>.<br />
 <br />
 The Forums have attracted a special mix of participants including lay researchers, patients, caregivers, clinicians, and scientists. In order to help us support and learn from one another, we moderate the Forums according to these values:<br />
 <br />
